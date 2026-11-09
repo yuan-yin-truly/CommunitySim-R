@@ -16,7 +16,8 @@ knitr::opts_chunk$set(
 # CommunitySim
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/yuan-yin-truly/CommunitySim/workflows/R-CMD-check/badge.svg)](https://github.com/yuan-yin-truly/CommunitySim/actions)
+[![R-CMD-check](https://github.com/yuan-yin-truly/CommunitySim-R/workflows/R-CMD-check/badge.svg)](https://github.com/yuan-yin-truly/CommunitySim-R/actions)
+[![R-CMD-check](https://github.com/yuan-yin-truly/CommunitySim-R/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/yuan-yin-truly/CommunitySim-R/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 CommunitySim simulates an ecological community, such as a microbiome using Lotka-Volterra based models. In particular, dynamics of species are simulated assuming a third species can influence the intensity of pairwise interactions, an assumption referred to as a higher-order interaction.
@@ -47,7 +48,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("yuan-yin-truly/CommunitySim")
+devtools::install_github("yuan-yin-truly/CommunitySim-R")
 ```
 
 ## How to use
